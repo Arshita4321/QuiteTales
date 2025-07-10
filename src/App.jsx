@@ -5,6 +5,8 @@ import Premium from './pages/Premium';
 import Login from './pages/Login';
 import AboutUs from './pages/AboutUs';
 import ContactUs from './pages/ContactUs';
+import Write from './pages/Write';
+import Chapter from './components/Chapter';
 
 function App() {
   return (
@@ -15,6 +17,8 @@ function App() {
         <Route path="/login" element={<Login />} />
         <Route path="/about" element={<AboutUs />} />
         <Route path="/contact" element={<ContactUs />} />
+        <Route path="/write" element={<Write/>} />
+        <Route path="/write/chapter" element={<Chapter/>} />
       </Routes>
     </BrowserRouter>
   );

@@ -2,6 +2,7 @@ import React from 'react';
 import MenuBookOutlinedIcon from '@mui/icons-material/MenuBookOutlined';
 import Button from '@mui/material/Button';
 import { NavLink } from 'react-router-dom';
+import User from './User';
 
 const Header = () => {
   return (
@@ -41,6 +42,7 @@ const Header = () => {
                 className="border border-gray-300 rounded-lg px-4 py-2 w-72 focus:outline-none focus:ring-2 focus:ring-indigo-300 bg-white text-gray-800 placeholder-gray-500"
               />
             </div>
+            <User />
           </div>
           <div className="md:hidden flex items-center">
             <button className="text-gray-600 hover:text-indigo-500 focus:outline-none p-2 rounded-full hover:bg-gray-200 transition-colors duration-300">
