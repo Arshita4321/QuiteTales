@@ -30,7 +30,7 @@ const ContactUs = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-teal-50 via-purple-100 to-pink-200 animate-gradient-pulse overflow-hidden">
       {/* Hero Section */}
-      <div className="relative w-full h-64 md:h-96 bg-cover bg-center parallax" style={{ backgroundImage: "url('https://images.unsplash.com/photo-1457369804613-52c61a468e7d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')" }}>
+      <div className="relative w-full h-64 md:h-96 bg-cover bg-center parallax" style={{ backgroundImage: "url('https://images.unsplash.com/photo-1602584332286-c88b9d75f360?q=80&w=1287&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')" }}>
         <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent flex items-center justify-center">
           <h1 className="text-4xl md:text-7xl font-extrabold text-white animate-pulse-glow bg-gradient-to-r from-teal-400 to-pink-500 bg-clip-text text-transparent drop-shadow-2xl">Contact Us</h1>
         </div>

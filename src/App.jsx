@@ -7,6 +7,8 @@ import AboutUs from './pages/AboutUs';
 import ContactUs from './pages/ContactUs';
 import Write from './pages/Write';
 import Chapter from './components/Chapter';
+import Community from './pages/Community';
+import Profile from './pages/Profile';
 
 function App() {
   return (
@@ -19,6 +21,8 @@ function App() {
         <Route path="/contact" element={<ContactUs />} />
         <Route path="/write" element={<Write/>} />
         <Route path="/write/chapter" element={<Chapter/>} />
+        <Route path="/community" element={<Community/>} />
+        <Route path="/profile" element={<Profile/>} />
       </Routes>
     </BrowserRouter>
   );

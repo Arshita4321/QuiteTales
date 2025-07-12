@@ -34,7 +34,7 @@ const Header = () => {
               )}
             </NavLink>
             <a href="/about" className="text-gray-600 hover:text-indigo-500 transition-colors duration-300 font-medium ml-3">About</a>
-            <a href="#" className="text-gray-600 hover:text-indigo-500 transition-colors duration-300 font-medium ml-3">Community</a>
+            <a href="/community" className="text-gray-600 hover:text-indigo-500 transition-colors duration-300 font-medium ml-3">Community</a>
             <div className="relative">
               <input
                 type="text"

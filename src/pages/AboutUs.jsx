@@ -1,6 +1,8 @@
 import React, { useEffect } from 'react';
 import FAQs from '../components/FAQs';
 import Reviews from '../components/Reviews';
+import Header from '../components/Header';
+import Footer from '../components/Footer';
 
 const AboutUs = () => {
   useEffect(() => {
@@ -21,6 +23,7 @@ const AboutUs = () => {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-pink-50 via-purple-100 to-indigo-200 animate-gradient-flow overflow-hidden">
+      <Header/>
       {/* Hero Section */}
       <div className="relative w-full h-64 md:h-96 bg-cover bg-center parallax" style={{ backgroundImage: "url('https://images.unsplash.com/photo-1457369804613-52c61a468e7d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')" }}>
         <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-center justify-center">
@@ -78,6 +81,7 @@ const AboutUs = () => {
         {/* Reviews Section */}
         <Reviews />
       </div>
+      <Footer/>
     </div>
   );
 };
