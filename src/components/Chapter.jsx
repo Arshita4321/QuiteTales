@@ -169,7 +169,7 @@ const Chapter = () => {
       </main>
 
       <footer className="text-center py-10 text-xs text-gray-400 select-none">
-        Wattpad Originals | Try Premium | Get the App | Language | Writers | Brand Partnerships | Jobs | Press
+       Quitetales | Try Premium | Get the App | Language | Writers | Brand Partnerships | Jobs | Press
       </footer>
     </div>
   );
